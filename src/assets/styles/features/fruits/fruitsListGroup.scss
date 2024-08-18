@@ -1,0 +1,22 @@
+.fruits-list-group {
+  .MuiAccordionSummary-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__summary {
+    &-buttons {
+      width: 20%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &_expanded {
+      .MuiSvgIcon-root {
+        transform: rotateX(180deg);
+      }
+    }
+  }
+}

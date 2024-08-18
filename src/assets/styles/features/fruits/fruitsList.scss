@@ -1,0 +1,7 @@
+.fruits-list {
+  &_empty {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}

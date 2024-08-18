@@ -1,0 +1,22 @@
+.main-page {
+  display: flex;
+
+  section {
+    flex: 1;
+  }
+
+  &__list-content {
+    &-title {
+      text-align: center;
+      margin: 10px 0 !important;
+      color: #000 !important;
+      opacity: 0.5;
+    }
+  }
+
+  &__jar {
+    &-remove-all-btn {
+      width: 100%;
+    }
+  }
+}
